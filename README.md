@@ -43,20 +43,23 @@ This is an example of how you may set up the code running for your projects loca
 ### Usage
 
 First, create a folder where you want to run simulations:
-`mkdir test_reconstruct`
 
+`mkdir test_reconstruct`
 `cd test_reconstruct`
 
 Make sure you copy all the code files from chromo_3D_code to the folder where you want to run simulations:
+
 `cp path_to_code_folder/chromo_3D_code/* ./ `
 
 Next, set up parameters in the initConfig.hpp (for parameter description see **Documentation**) and then compile the code:
+
 `make`
 
 Prepare normalized matrix of a single chromosome or whole genome to be modelled and name it *_chromosome_real.normMatrix_*. You can find a template of single chromosome normalized Matrix in `chromo_3D_code`.
 Also, do include number of reconstructed chromosomes and number of bins for each in *_chromosome_real.numberBead_*. You can find a template in `chromo_3D_code`.
 
 Run the simulation:
+
 `./chromo`
 
 
