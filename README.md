@@ -45,6 +45,7 @@ This is an example of how you may set up the code running for your projects loca
 First, create a folder where you want to run simulations:
 
 `mkdir test_reconstruct`
+
 `cd test_reconstruct`
 
 Make sure you copy all the code files from chromo_3D_code to the folder where you want to run simulations:
