@@ -36,7 +36,7 @@ This is an example of how you may set up the code running for your projects loca
 -	Visualization software such as Chimera, VMD or PyMOL
 
 #### Installation
-1.	You can download the code ( from chromo_3D_code folder: `initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile, chromosome_real.numberBead, chromosome_real.normMatrix`)
+1.	You can download the code (`initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile, chromosome_real.numberBead, chromosome_real.normMatrix`)
 2.	Or you can clone the repo: `git clone` https://github.com/FrancisCrickInstitute/Chromosome-Condensation
 
 
@@ -57,8 +57,8 @@ Next, set up parameters in the initConfig.hpp (for parameter description see **D
 
 `make`
 
-Prepare normalized matrix of a single chromosome or whole genome to be modelled and name it *_chromosome_real.normMatrix_*. You can find a template of single chromosome normalized Matrix in `chromo_3D_code`.
-Also, do include number of reconstructed chromosomes and number of bins for each in *_chromosome_real.numberBead_*. You can find a template in `chromo_3D_code`.
+Prepare normalized matrix of a single chromosome or whole genome to be modelled and name it *_chromosome_real.normMatrix_*. You can find a template of single chromosome normalized Matrix together with other files.
+Also, do include number of reconstructed chromosomes and number of bins for each in *_chromosome_real.numberBead_*. 
 
 Run the simulation:
 
