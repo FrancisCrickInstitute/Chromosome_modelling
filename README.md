@@ -37,7 +37,7 @@ This is an example of how you may set up the code running for your projects loca
 
 #### Installation
 1.	You can download the code (`initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile, chromosome_real.numberBead, chromosome_real.normMatrix`)
-2.	Or you can clone the repo: git clone https://github.com/FrancisCrickInstitute/Chromosome-Condensation
+2.	Or you can clone the repo: `git clone` https://github.com/FrancisCrickInstitute/Chromosome-Condensation
 
 
 ### Usage
