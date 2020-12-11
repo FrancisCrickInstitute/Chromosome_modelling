@@ -36,7 +36,7 @@ This is an example of how you may set up the code running for your projects loca
 -	Visualization software such as Chimera, VMD or PyMOL
 
 #### Installation
-1.	You can download the code (`initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile, chromosome_real.numberBead, chromosome_real.normMatrix`)
+1.	You can download the code ( from chromo_3D_code folder: `initConfig.hpp, initConfig.cpp, initDynamics.hpp, initDynamics.cpp, chromoCell.cpp, Makefile, chromosome_real.numberBead, chromosome_real.normMatrix`)
 2.	Or you can clone the repo: `git clone` https://github.com/FrancisCrickInstitute/Chromosome-Condensation
 
 
@@ -45,6 +45,7 @@ This is an example of how you may set up the code running for your projects loca
 First, create a folder where you want to run simulations:
 
 `mkdir test_reconstruct`
+
 
 `cd test_reconstruct`
 
@@ -66,7 +67,7 @@ Run the simulation:
 
 ### Output & visualization
 
-The main output of code are PDB files from specific timepoints with coordinates of reconstructed chromosomes. These can be visalized using Chimera, VMD or PyMOL. There are additional output files to monitor further events in the simulations (**Documentation**) you can opt for. 
+The main output of code are PDB files from specific timepoints with coordinates of reconstructed chromosomes. These can be visalized using Chimera, VMD or PyMOL.  
 
 
 ### Documentation – parameters 
@@ -74,10 +75,10 @@ The main output of code are PDB files from specific timepoints with coordinates 
 The ‘Chromosome-condensation’ code consists of several files:
 
 - **initConfig.hpp** = includes parameter settings and declaration of functions that initialise the chromatin chain
-- **initConfig.cpp** = includes definition of functions that initialise the chromatin chain and binders
-- **initDynamics.hpp** = includes declaration of functions that describe the dynamical evolution of chromatin chain and binders, including those detail rules of diffusion capture and loop extrusion
-- **initDynamics.cpp** = includes definition of functions that describe the dynamical evolution of chromatin chain and binders, including those detail rules of diffusion capture and loop extrusion
-- **chromoCell.cpp** = includes functions to call functions in files above to simulate the dynamical evolution of chromatin condensation
+- **initConfig.cpp** = includes definition of functions that initialise the chromosome(s)
+- **initDynamics.hpp** = includes declaration of functions that describe the dynamical evolution of chromosome chain(s)
+- **initDynamics.cpp** = includes definition of functions that describe the dynamical evolution of chromosome chain(s) to converge to energy minimum
+- **chromoCell.cpp** = includes functions to call functions in files above to simulate the dynamical evolution and convergence 
 
 General parameter set up can be adjusted in **initConfig.hpp** file. **README_parameters_chromo_modelling.xlsx** contains more in-depth description of polymer simulation parameters.
 
