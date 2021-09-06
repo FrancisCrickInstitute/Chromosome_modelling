@@ -100,6 +100,6 @@ Distributed under **The Francis Crick Institute License**.
 
 ### Acknowledgements
 
-This code was developed under the **Biomolecular Modelling Laboratory** https://www.crick.ac.uk/research/labs/paul-bates at Francis Crick Institute (https://www.crick.ac.uk/ ). 
+This code was developed under the **Biomolecular Modelling Laboratory** https://www.crick.ac.uk/research/labs/paul-bates at Francis Crick Institute (https://www.crick.ac.uk/). 
 Please cite our paper (doi:10.21203/rs.3.rs-757454/v1) when using the code.
 
