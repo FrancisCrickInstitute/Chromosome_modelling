@@ -8,7 +8,7 @@ C++ software tool for 3D chromosome modelling using HiC data
 
 ### •	 Getting Started
 
-### • Usage
+### • Tutorial
 
 ### •	Output & visualization
 
@@ -40,7 +40,7 @@ This is an example of how you may set up the code running for your projects loca
 2.	Or you can clone the repo: `git clone` https://github.com/FrancisCrickInstitute/Chromosome-Condensation
 
 
-### Usage
+### Tutorial
 
 First, create a folder where you want to run simulations:
 
@@ -62,7 +62,7 @@ Also, do include number of reconstructed chromosomes and number of bins for each
 
 Run the simulation:
 
-`./chromo`
+`./chromo _chromosome_real`
 
 
 ### Output & visualization
@@ -94,12 +94,12 @@ Distributed under **The Francis Crick Institute License**.
 
 ### Contact
 -	**Xiao Fu** - @foolbirdie, xiao.fu@crick.ac.uk
--	**Tereza Gerguri** - @GerguriTereza, tereza.gerguri@crick.ac.uk
+-	**Tereza Clarence** - @ClarenceTereza, tereza.clarence@crick.ac.uk, clarence.tereza@gmail.com
 -	**Paul Bates** - @PaulBatesBMM, paul.bates@crick.ac.uk
 
 
 ### Acknowledgements
 
 This code was developed under the **Biomolecular Modelling Laboratory** https://www.crick.ac.uk/research/labs/paul-bates at Francis Crick Institute (https://www.crick.ac.uk/ ). 
-Please cite our paper (https://www.biorxiv.org/) when using the code.
+Please cite our paper (doi:10.21203/rs.3.rs-757454/v1) when using the code.
 
